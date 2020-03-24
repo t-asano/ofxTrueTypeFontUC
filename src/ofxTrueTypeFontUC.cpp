@@ -10,7 +10,7 @@
 #include FT_TRIGONOMETRY_H
 #include <fontconfig/fontconfig.h>
 #else
-#if (OF_VERSION_MAJOR == 0) && ((OF_VERSION_MINOR <= 8) || (OF_VERSION_MINOR == 10))
+#if (OF_VERSION_MAJOR == 0) && ((OF_VERSION_MINOR <= 8) || (OF_VERSION_MINOR == 10) || (OF_VERSION_MINOR == 11))
 #include "freetype2/freetype/freetype.h"
 #include "freetype2/freetype/ftglyph.h"
 #include "freetype2/freetype/ftoutln.h"
